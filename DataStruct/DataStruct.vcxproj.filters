@@ -24,12 +24,18 @@
     <ClCompile Include="RabinKarp.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="CyzVector.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="RBTree.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="RabinKarp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CyzVector.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

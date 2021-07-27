@@ -123,11 +123,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CyzVector.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="RabinKarp.cpp" />
     <ClCompile Include="RBTree.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CyzVector.h" />
     <ClInclude Include="RabinKarp.h" />
     <ClInclude Include="RBTree.h" />
   </ItemGroup>
