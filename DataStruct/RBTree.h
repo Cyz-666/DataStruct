@@ -69,6 +69,7 @@ public:
 
 	// ´òÓ¡ºìºÚÊ÷
 	void print();
+
 private:
 	// Ç°Ðò±éÀú"ºìºÚÊ÷"
 	void preOrder(RBTNode<T>* tree) const;
@@ -142,7 +143,16 @@ void RBTree<T>::preOrder(RBTNode<T>* tree) const
 {
 	if (tree != NULL)
 	{
-		cout << tree->key << " ";
+		std::string color;
+		if (tree->key == RED)
+		{
+			color = "RED";
+		}
+		else
+		{
+			color = "BLACK";
+		}
+		cout << tree->key << "," << color.c_str() << " ";
 		preOrder(tree->left);
 		preOrder(tree->right);
 	}
